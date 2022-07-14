@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+/* ul{
+    width: 600px;
+    height: ;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 500px;
+    
+}  */
+
+
+.vegan{
+    position: absolute;
+    width: 228px;
+    height: 70px;
+    left: 638px;
+    top: 50px;
+    
+    background: #79B331;
+    border-radius: 0px 35px;
+}
+
+.magaziebi{
+    position: absolute;
+    width: 126px;
+    height: 70px;
+    left: 950px;
+    top: 50px;
+    
+    background: #C4C4C4;
+    border-radius: 0px 35px;
+}
+
+.shop{
+    position: absolute;
+    width: 71px;
+    height: 70px;
+    left: 1160px;
+    top: 50px;
+    
+    background: #C4C4C4;
+    border-radius: 0px 35px; 
+} 
+
+.martkutxedi{
+    width: 400px;
+    height: 164px;
+    background-color: #8a000000;
+    top: 214px;
+    left: 816px;
+    position: absolute;
+    padding: 36px 40px;
+}
+
+.martkutxedi p{
+    font-size: 16px;
+}
+
+.wre{
+    width: 32px;
+    height: 32px;
+    background-color: #79B331;
+    border: 1px solid;
+    border-radius: 50%;
+    position: relative;
+    animation: wre 4s infinite;
+}
+
+@keyframes wre {
+    0%{top: 0; left: 0;}
+    25%{top: 0; left: 300px;}
+    50%{top: 150px; left: 300px;}
+    75%{top: 150px; left: 0;}
+    100%{top: 0; left: 0;}
+}
+
+.dro{
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 44px;
+}
+
+.xe{
+    width: 1040px;
+    height: 500px;
+    /* background-color: black; */
+    margin-left: 430px;
+    margin-top: -510px;
+    position: relative;
+}
+
+.xe .gero{
+    width: 1px;
+    height: 500px;
+    background-color: #C4C4C4;
+    margin: 0 auto;
+
+}
+
+.diviko{
+    width: 520px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding-left: 80px;
+    top: 0;
+    left: 0;
+}
+
+.diviko .fotoli{
+    width: 70px;
+    height: 70px;
+    border-radius: 0 35px 0 35px;
+    background-color: #79B331;
+    margin-top: -56px;
+}
+
+.diviko p{
+    width: 380px;
+    margin-top: -56px;
+}
+
+.divikoori{
+    width: 520px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding-left: 110px;
+    top: 240px;
+    left: 0;
+}
+
+.divikoori .fotoli{
+    width: 70px;
+    height: 70px;
+    border-radius: 0 35px 0 35px;
+    background-color: #C4C4C4;
+
+}
+
+.divikoori p{
+    width: 350px;
+}
+
+
+.divikosami{
+    width: 520px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding-right: 80px;
+    top: 120px;
+    right: 0;
+}
+
+.divikosami .fotoli2{
+    width: 70px;
+    height: 70px;
+    border-radius: 0 35px 0 35px;
+    background-color: #C4C4C4;
+    transform: rotate(0.75turn);
+}
+
+.divikosami p{
+    width: 360px;
+}
+
+.divikootxi{
+    width: 520px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding-right: 80px;
+    top: 360px;
+    right: 0;
+}
+
+.divikootxi .fotoli2{
+    width: 70px;
+    height: 70px;
+    border-radius: 0 35px 0 35px;
+    background-color: #C4C4C4;
+    transform: rotate(0.75turn);
+}
+
+.divikootxi p{
+    width: 360px;
+}
+
+
